@@ -1,5 +1,104 @@
-@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap");
+:root {
+  --primary-color: rgb(125, 46, 111);
+  --dark-gray: #57534e;
+  --bombay-color: #0284c7;
+  --offwhite-color:#94a3b8;
+}
 
-body{
-    font-family: 'Agdasima', sans-serif;
+body {
+  font-family: "Agdasima", sans-serif;
+  margin:0px;
+}
+/** container **/
+.container {
+  padding: 0rem 1rem;
+}
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+/** links **/
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+.link-primary {
+  background-color: var(--offwhite-color);
+  border-radius: 0.5rem;
+  color: white;
+}
+.link-secondary {
+  color: var(--offwhite-color);
+  border-radius: 0.5rem;
+  border: 1px solid var(--offwhite-color);
+}
+/** lists **/
+.list-non-bullet {
+  list-style: none;
+}
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+/** navigations **/
+.navigation {
+  background-color: var(--offwhite-color);
+  color: white;
+  border-bottom-left-radius: 1rem;
+}
+.navigation .nav-pills {
+  text-align: right;
+  padding: 1rem;
+}
+.navigation .nav-brand {
+  font-weight: bold;
+}
+.navigation .link {
+  color: white;
+}
+.navigation .link-active {
+  font-weight: bold;
+}
+
+/** header **/
+.hero {
+  padding: 2rem;
+  text-align: center;
+}
+.hero .hero-img {
+  max-width: 300px;
+  display: block;
+  margin: auto;
+}
+.hero .hero-heading {
+  font-size: 2rem;
+  color: var(--dark-gray);
+}
+.hero .hero-heading .heading-inverted {
+  color: var(--bombay-color);
+}
+/** sections **/
+.section h3 {
+  text-align: center;
+}
+.section{
+	padding: 2rem;
+}
+.ow{
+	background-color: var(--offwhite-color);
+}
+/** footers **/
+.footer{
+background-color:var(--offwhite-color);
+padding : 2rem 1rem;
+text-align: center;
+color: white;
+border-top-right-radius: 1rem;
+}
+.footer .link{
+color: white;
+}
+.footer ul{
+	padding-inline-start: 0px;
 }
